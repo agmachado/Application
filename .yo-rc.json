@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "agmachado",
+    "baseName": "Application",
+    "packageName": "br.com.sotran.tools",
+    "serverPort": 80,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "pt-br",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.8.2",
+    "packageFolder": "br/com/sotran/tools",
+    "jwtSecretKey": "7b224bb500f3dc858daee3d63ea396c836199f9a",
+    "jhiPrefix": "jhi"
+  }
+}
